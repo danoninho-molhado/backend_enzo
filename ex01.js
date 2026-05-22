@@ -13,8 +13,6 @@ function calculadora(num1, num2, operacao) {
         default: return "Operação inválida. Use: +, -, * ou /.";
     }
 }
-
-console.log("--- Exercício 01: Calculadora ---");
 console.log("Soma (10 + 5):", calculadora(10, 5, '+'));
 console.log("Subtração (10 - 5):", calculadora(10, 5, '-'));
 console.log("Multiplicação (10 * 5):", calculadora(10, 5, '*'));
