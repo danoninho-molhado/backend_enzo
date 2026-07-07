@@ -1,0 +1,45 @@
+1. Com suas palavras, explique a diferença entre cliente e servidor.
+R: Cliente é quem pede, como navegador, um app de celular ou um jogo. O servidor é quem ersponde, quem realiza o pedido devolvendo dados.
+
+2. Qual verbo HTTP você usaria para cada situação abaixo?
+
+a. Ver todos os produtos de uma loja
+R:GET.
+
+b. Cadastrar um produto novo
+R:POST.
+
+c. Apagar um produto
+R:DELETE.
+
+d. Mudar o preço de um produto
+R:PUT.
+
+3. O que significa cada status code?
+
+a. 200
+R:Deu tudo certo.
+
+b. 201
+R:Criado com sucesso.
+
+c. 404
+R:O cliente mandou os dados errados.
+
+d. 500
+R:O servidor quebrou.
+
+4. Um cliente fez GET /usuarios/50 mas esse usuário não existe no servidor. Qual status code o servidor
+deve responder?
+R:404 Bad Request.
+
+5. Escreva, no formato JSON, um objeto que represente um produto com as propriedades: id, nome e
+preço.
+R:{
+    "id": 0001,
+    "Nome": "Jabuticaba",
+    "Preço": 3.00
+}
+6. Explique com suas palavras por que dizemos que o JSON é parecido com um objeto JavaScript.
+R: Porque a sintaxe do JSON é muito semelhante à sintaxe de um objeto JavaScript, com chaves e valores associados por dois pontos e separados por vírgulas.
+
